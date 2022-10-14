@@ -42,60 +42,60 @@ public class LoginPage extends PageObject {
     public static final Target INPUT_COUNTRY = Target.the("Where do we write the country")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[1]/div[3]/div[1]/div[4]/div[2]/div/div/input[1]"));
 
-    public static final Target DEVICES_BUTTON = Target.the("button that shows us the form to login")
+    public static final Target DEVICES_BUTTON = Target.the("button to the next page")
             .located(By.xpath("//a[@class='btn btn-blue pull-right']"));
 
-    public static final Target CONTAINER_COMPUTER = Target.the("Where do we write the computer")
+    public static final Target CONTAINER_COMPUTER = Target.the("Select a computer")
            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[1]/div[2]/div"));
 
-    public static final Target INPUT_COMPUTER = Target.the("Where do we write the computer")
+    public static final Target INPUT_COMPUTER = Target.the("Select a computer")
           .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[1]/div[2]/div/input[1]"));
 
-    public static final Target CONTAINER_VERSION = Target.the("Where do we write the version")
+    public static final Target CONTAINER_VERSION = Target.the("Select a computer os version")
            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[2]/div[2]/div"));
 
-    public static final Target INPUT_VERSION = Target.the("Where do we write the version")
+    public static final Target INPUT_VERSION = Target.the("Select a computer os version")
          .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[2]/div[2]/div/input[1]"));
 
-    public static final Target CONTAINER_LANGUAGE = Target.the("Where do we write the year")
+    public static final Target CONTAINER_LANGUAGE = Target.the("Select a language")
            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[3]/div[2]/div"));
 
-    public static final Target INPUT_LANGUAGE = Target.the("Where do we write the computer")
+    public static final Target INPUT_LANGUAGE = Target.the("Select a language")
        .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/input[1]"));
 
-    public static final Target CONTAINER_MOBILE_DEVICE = Target.the("Where do we write the year")
+    public static final Target CONTAINER_MOBILE_DEVICE = Target.the("Select a mobile device")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[1]/div[2]/div"));
 
-    public static final Target INPUT_MOBILE_DEVICE = Target.the("Where do we write the year")
+    public static final Target INPUT_MOBILE_DEVICE = Target.the("Select a mobile device")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[1]/div[2]/div/input[1]"));
 
-    public static final Target CONTAINER_MODEL = Target.the("Where do we write the year")
+    public static final Target CONTAINER_MODEL = Target.the("Select a model")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[2]/div[2]/div"));
 
-    public static final Target INPUT_MODEL = Target.the("Where do we write the year")
+    public static final Target INPUT_MODEL = Target.the("Select a model")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[2]/div[2]/div/input[1]"));
 
-    public static final Target CONTAINER_OS = Target.the("Where do we write the year")
+    public static final Target CONTAINER_OS = Target.the("Select a mobile os")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/div[2]/div"));
 
-    public static final Target INPUT_OS = Target.the("Where do we write the year")
+    public static final Target INPUT_OS = Target.the("Select a mobile os")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/div[2]/div/input[1]"));
 
-    public static final Target LAST_STEP_BUTTON = Target.the("button that shows us the form to login")
+    public static final Target LAST_STEP_BUTTON = Target.the("button to the next page")
             .located(By.xpath("//a[@class='btn btn-blue pull-right']"));
-    public static final Target INPUT_PASSWORD = Target.the("Where do we write the password")
+    public static final Target INPUT_PASSWORD = Target.the("Write your password")
             .located(By.id("password"));
 
-    public static final Target INPUT_CONFIRM_PASSWORD = Target.the("Where do we write the zip")
+    public static final Target INPUT_CONFIRM_PASSWORD = Target.the("Confirm your password")
             .located(By.id("confirmPassword"));
 
     public static final Target INPUT_TERMS = Target.the("Check terms")
             .located(By.id("termOfUse"));
 
-    public static final Target INPUT_PRIVACY = Target.the("Where do we write the zip")
+    public static final Target INPUT_PRIVACY = Target.the("Check privacy")
             .located(By.id("privacySetting"));
 
-    public static final Target COMPLETE_BUTTON = Target.the("button that shows us the form to login")
+    public static final Target COMPLETE_BUTTON = Target.the("End button")
             .located(By.xpath("//a[@class='btn btn-blue']"));
 
 
