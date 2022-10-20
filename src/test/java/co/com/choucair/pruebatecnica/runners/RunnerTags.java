@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         tags="@stories",
         glue="co.com.choucair.pruebatecnica.stepdefinitions",
         snippets=SnippetType.CAMELCASE)
-
-
+//Comentario x
 public class RunnerTags {
 }

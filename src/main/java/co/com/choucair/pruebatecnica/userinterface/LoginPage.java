@@ -98,7 +98,4 @@ public class LoginPage extends PageObject {
     public static final Target COMPLETE_BUTTON = Target.the("End button")
             .located(By.xpath("//a[@class='btn btn-blue']"));
 
-
-
-
 }

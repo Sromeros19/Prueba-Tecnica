@@ -6,10 +6,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.EnterValue;
-import net.serenitybdd.screenplay.actions.SelectFromOptions;
+import net.serenitybdd.screenplay.actions.*;
 import org.openqa.selenium.Keys;
 
 public class Login implements Task {
@@ -22,12 +19,14 @@ public class Login implements Task {
         actor.attemptsTo(Click.on(LoginPage.LOGIN_BUTTON),
                 Enter.theValue("Stephany").into(LoginPage.INPUT_USERNAME),
                 Enter.theValue("Romero").into(LoginPage.INPUT_USER),
-                Enter.theValue("smromeros19@gmail.com").into(LoginPage.INPUT_EMAIL),
+                Enter.theValue("vedijoy514@charav.com").into(LoginPage.INPUT_EMAIL),
                 SelectFromOptions.byValue("number:10").from(LoginPage.SELECT_MONTH),
                 SelectFromOptions.byValue("number:19").from(LoginPage.SELECT_DAY),
                 SelectFromOptions.byValue("number:2000").from(LoginPage.SELECT_YEAR),
                 Click.on(LoginPage.NEXT_BUTTON),
                 Enter.theValue("Cartagena de Indias").into(LoginPage.INPUT_CITY),
+                Hit.the(Keys.ARROW_DOWN).into(LoginPage.INPUT_CITY),
+                Hit.the(Keys.ENTER).into(LoginPage.INPUT_CITY),
                 Enter.theValue("130003").into(LoginPage.INPUT_ZIP),
                 Click.on(LoginPage.CONTAINER_COUNTRY),
                 Enter.theValue("Colombia").into(LoginPage.INPUT_COUNTRY),

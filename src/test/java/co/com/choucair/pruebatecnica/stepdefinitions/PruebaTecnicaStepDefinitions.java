@@ -24,8 +24,8 @@ public class PruebaTecnicaStepDefinitions {
         OnStage.theActorCalled("Stephany").wasAbleTo(Login.onthePage());
     }
 
-    @Then("^She is registered on the Utest website$")
-    public void sheIsRegisteredOnTheUtestWebsite() {
+    @Then("^She is registered on the Utest website(.*)$")
+    public void sheIsRegisteredOnTheUtestWebsite(String question) {
         OnStage.theActorCalled("Stephany").wasAbleTo(Register.onthePage());
     }
 }
